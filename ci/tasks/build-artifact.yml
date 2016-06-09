@@ -1,7 +1,7 @@
 ---
 platform: linux
 
-image: docker:///datianshi/gradle
+image: docker:///datianshi/spring-music-jdk8
 
 inputs:
   - name: music-repo
