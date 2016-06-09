@@ -34,6 +34,6 @@ ls build/libs/
 
 # Copy jar file to concourse output folder
 cd ..
-cp $inputDir/build/libs/spring-music-1.0.1.war $outputDir/spring-music-1.0.1.war
+cp $inputDir/build/libs/spring-music-$version.war $outputDir/spring-music-$version.war
 echo "file copied"
 ls $outputDir/
