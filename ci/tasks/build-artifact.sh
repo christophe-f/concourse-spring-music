@@ -6,7 +6,7 @@ version=`cat version/number`
 
 cd music-repo
 echo $version
-ls build-artifact
+ls `build-artifact`
 gradle assemble -PVersion=$version
 ls build/libs/
 
