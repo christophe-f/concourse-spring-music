@@ -12,3 +12,6 @@ outputs:
 
 run:
   path: music-repo/ci/tasks/build-artifact.sh
+  args: [
+    --output-dir, build-artifact
+  ]
