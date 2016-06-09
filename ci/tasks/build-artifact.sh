@@ -8,4 +8,4 @@ cd music-repo
 gradle assemble -PVersion=$version
 ls build/libs/
 
-cp build/libs/spring-music-1.0.0.war build-artifact/spring-music-1.0.0.war
+cp build/libs/spring-music-$version.war build-artifact/spring-music-$version.war
