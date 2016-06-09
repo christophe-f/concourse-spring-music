@@ -3,10 +3,10 @@ set -e
 
 export GRADLE_OPTS=-Dorg.gradle.native=false
 version=`cat version/number`
-output=`cat build-artifact`
+output=`build-artifact`
 cd music-repo
 echo $version
-echo $output
+ls $output
 gradle assemble -PVersion=$version
 ls build/libs/
 
