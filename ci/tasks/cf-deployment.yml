@@ -4,11 +4,11 @@ platform: linux
 image: docker:///datianshi/cf-cli
 
 inputs:
-  - name: music-repo
-  - name: music-release
+  - name: common-lib-repo
+  - name: common-lib-release
 
 run:
-  path: music-repo/ci/tasks/cf-deployment.sh
+  path: common-lib-repo/ci/tasks/cf-deployment.sh
 
 params:
   API_ENDPOINT:
